@@ -1,0 +1,285 @@
+@media screen and (min-width: 375px) {
+  /* bodycolor */
+  .pagefirst {
+    background-color: white;
+  }
+
+  .bodyAll {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20% 0 20%;
+    background-color: rgb(233, 230, 230);
+  }
+
+  /* first page */
+  .all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2%;
+    width: 360px;
+    background-color: white;
+  }
+
+  .h1 {
+    font-family: var(--font-family);
+    font-weight: 50%;
+    font-size: 130%;
+    line-height: 105%;
+    color: #172b4d;
+  }
+
+  .logo {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 130%;
+    line-height: 111%;
+    text-align: center;
+    color: #6070ff;
+  }
+
+  p {
+    padding: 0%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 120%;
+    line-height: 150%;
+    color: #344563;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu a {
+    text-decoration: none;
+    padding: 0 5px;
+    color: black;
+  }
+
+  .menu-icon {
+    font-size: medium;
+    display: flex;
+    float: right;
+  }
+
+  .menu-icon:hover {
+    background-color: gray;
+  }
+
+  .contact {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 150%;
+    color: #7f8cff;
+  }
+
+  .contact:hover {
+    color: gray;
+  }
+
+  .link {
+    display: flex;
+    color: #505f79;
+  }
+
+  .about {
+    background-color: white;
+    border-bottom-right-radius: 30px;
+  }
+
+  .main {
+    background-image: url(/css/image/Header\ bg@2x.png);
+    background-size: cover;
+    width: 360px;
+    height: 360px;
+    background-color: white;
+  }
+
+  /* the pages */
+  .page1 {
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    padding: 16px;
+    width: 327px;
+    height: 619px;
+    background-color: white;
+    margin-top: 22%;
+  }
+
+  .page1 ul {
+    width: 235px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page1 b {
+    font-size: 15px;
+  }
+
+  .page1 ul li {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 13px;
+
+    /* line-height: 123%; */
+    color: #7a869a;
+  }
+
+  .page1 p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+
+    /* line-height: 160%; */
+    color: #344563;
+  }
+
+  .page1 h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+
+    /* line-height: 137%; */
+    color: #172b4d;
+  }
+
+  .page1list {
+    gap: 10%;
+    width: 220px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page1list a {
+    border-radius: 8px;
+    padding: 4px 12px;
+    width: 57px;
+    height: 24px;
+    background: #ebebff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .button {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    width: 126px;
+    height: 48px;
+    margin-top: 70px;
+  }
+
+  /* about  */
+  .about-myself {
+    width: 360px;
+    margin-left: 0%;
+    margin-top: 15%;
+    border-top-right-radius: 10%;
+    background-color: white;
+  }
+
+  .about-myself h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #172b4d;
+    margin-top: 120px;
+  }
+
+  .about-myself p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #344563;
+  }
+
+  .button1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    width: 170px;
+    height: 52px;
+    margin-top: 50px;
+  }
+
+  /* language */
+  .languageli {
+    margin-right: 20%;
+  }
+
+  .languageli img {
+    margin-right: 20%;
+  }
+
+  .lang {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .topp {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 327px;
+    height: 72px;
+  }
+
+  .fw {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+  }
+
+  .language-logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Progarmingimg {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10%;
+    list-style: none;
+    background-color: #a0a7b4;
+    margin-top: 5%;
+  }
+
+  .Progarmingimg img {
+    max-width: 50px;
+    height: 10%;
+  }
+
+  .jhc {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    color: #253858;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+}
