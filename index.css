@@ -2,11 +2,51 @@
   /* bodycolor */
 
   .bodyAll {
-    width: 95%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     background-color: rgb(233, 230, 230);
+  }
+
+  /* for the humburg */
+  .menu_sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 95%;
+    z-index: 999;
+    background-color: rgba(96, 112, 255, 0.8);
+    backdrop-filter: blur(3px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu_sidebar li {
+    list-style: none;
+  }
+
+  .menu_sidebar a {
+    text-decoration: none;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 200%;
+  }
+
+  .close {
+    width: 10%;
+    height: 45%;
+    text-align: end;
+    margin-left: 70%;
+  }
+
+  .hide {
+    visibility: hidden;
   }
 
   /* first page */
@@ -18,10 +58,6 @@
     width: 93%;
     background-color: white;
     margin-left: 2%;
-  }
-
-  .menu {
-    display: none;
   }
 
   .h1 {
@@ -49,16 +85,6 @@
     color: #344563;
   }
 
-  .menu-icon {
-    font-size: medium;
-    display: flex;
-    float: right;
-  }
-
-  .menu-icon:hover {
-    background-color: gray;
-  }
-
   .contact {
     font-family: var(--font-family);
     font-weight: 500;
@@ -84,6 +110,7 @@
   .main {
     background-image: url(css/image/vector.png);
     background-size: cover;
+    background-repeat: no-repeat;
     width: 93%;
     height: auto;
     padding-bottom: 30%;
@@ -339,7 +366,13 @@
   }
 
   .menu {
-    display: flex;
+    display: block;
+  }
+
+  .menu ul li {
+    list-style: none;
+    display: inline;
+    justify-content: flex-end;
     align-items: center;
   }
 
@@ -347,6 +380,22 @@
     text-decoration: none;
     padding: 0 5px;
     color: black;
+  }
+
+  menu a:hover {
+    background-color: #a0a7b4;
+  }
+
+  .menu_sidebar {
+    display: none;
+  }
+
+  .hideonDT {
+    visibility: hidden;
+  }
+
+  .hide {
+    visibility: visible;
   }
 
   .all {
@@ -391,8 +440,9 @@
   }
 
   .enlarge2 {
-    width: 100%;
+    width: 130%;
     height: 100%;
+    margin-left: 35%;
   }
 
   /* about my self */
