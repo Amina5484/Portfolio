@@ -7,25 +7,25 @@
 
 - [📖 About the Project](#about-project)
 - [Techstack](#tech-stack)
-    - [Key Features](#key-features)
-    - [Getting started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Show your support](#support)
- 
-- [🔭 Future Features](#future-features)
+- [Key Features](#key-features)
+- [Getting started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Deployment](#deployment)
+- [Show your support](#support)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Protfolic] <a name="about-project"></a>
 
 
-A mobile version skeleton refers to the basic structure and layout of a web page specifically designed for mobile devices. HTML and CSS are used to create this skeleton.
-
-In HTML, you would define the necessary elements such as the `<header>`, `<nav>`, `<main>`and so on. These elements provide the structural organization of the page. Additionally, you would use appropriate HTML tags to mark up content like headings, paragraphs, images, and links.
-
+A mobile version skeleton refers to the basic structure and layout of a web page specifically designed for mobile devices.
+A desktop version skeletion refers to the basic structure and layout of a web page specifically designed for desktop devices,
+ HTML and CSS are used to create this skeleton.
+In HTML, you would define the necessary elements such as the `<header>`, `<div>`, `<main>`and so on. These elements provide the structural organization of the page. Additionally, you would use appropriate HTML tags to mark up content like headings, paragraphs, images, and links.
 CSS is then employed to style and arrange these elements for mobile devices. This includes setting the width and height of the page, adjusting the font sizes, applying responsive design techniques to ensure proper scaling and positioning on different screen sizes, and optimizing the layout for touch interactions.
 
-By combining HTML and CSS, you can create a mobile version skeleton that provides a clear and user-friendly layout for mobile devices, allowing your website to be easily accessed and navigated on smartphones and tablets.
+By combining HTML and CSS, you can create a mobile version and desktop version skeleton that provides a clear and user-friendly layout for mobile devices ,desktop devices, allowing your website to be easily accessed and navigated on smartphones and tablets.
 
 
 
@@ -42,8 +42,8 @@ CSS is a style sheet language that controls the visual appearance of HTML elemen
 
 - **[HTML]**
 - **[CSS]**
+-**[JavaScript]**
 - **[LINTER]**
-
 
 
 <!-- GETTING STARTED -->
@@ -58,7 +58,8 @@ for further you can contact me on phone +251967832067
 
 In order to run this project you need:
 <br>-vs code or another code compilers to run the code<br>
--To use the linter you should now comands.<br>
+-To use the linter you should now comands.
+<br>
 Like:<br>
 
 [Webhint]<br>
@@ -81,12 +82,16 @@ Run<br>
 Run<br>
 3.npx stylelint "**/*.{css,scss}" on the root of your directory of your project.
 Fix linter errors.<br>
+4.npx eslint . for JS checker
+### Setup
+ To Clone repository for this project use:
+ git clone https://github.com/Amina5484/Portfolio.git
+
+ ### Deployment
+
+You can deploy this project using: https://amina5484.github.io/Portfolio/
 
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[javascript]**
-- [ ] **[desktop versions]**
 
 
 ## ⭐️ Show your support <a name="support"></a>
