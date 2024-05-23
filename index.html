@@ -5,7 +5,17 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="index.css">
-	<title>Task1</title>
+	<title>Portfolio</title>
+	<script>
+		function shoewMenu_sidbar() {
+			const menu_sidebar = document.querySelector('.menu_sidebar')
+			menu_sidebar.style.display = 'flex'
+		}
+		function hideMenu_sidbar() {
+			const menu_sidebar = document.querySelector('.menu_sidebar')
+			menu_sidebar.style.display = 'none'
+		}
+	</script>
 </head>
 
 <body>
@@ -35,16 +45,7 @@
 					</ul>
 				</div>
 			</div>
-			<script>
-				function shoewMenu_sidbar() {
-					const menu_sidebar = document.querySelector('.menu_sidebar')
-					menu_sidebar.style.display = 'flex'
-				}
-				function hideMenu_sidbar() {
-					const menu_sidebar = document.querySelector('.menu_sidebar')
-					menu_sidebar.style.display = 'none'
-				}
-			</script>
+
 		</header>
 		<section class="main">
 			<div class="h1"></div>
@@ -70,8 +71,6 @@
 				</div>
 			</div>
 		</section>
-
-
 		<!--work section-->
 		<section>
 			<!-- page 2-->
@@ -253,6 +252,7 @@
 						<input type="email" id="email" name="email" placeholder="Enter your email" required>
 						<textarea id="message" name="message" maxlength="500" placeholder="Write your message here"
 							required></textarea>
+						<div id="error-message" class="error-message"></div>
 						<input type="submit" value="Get in touch">
 					</form>
 				</div>
@@ -260,3 +260,22 @@
 		</div>
 	</main>
 </body>
+<script type="text/javascript">
+	const form = document.getElementById('form-inside');
+	const emailInput = document.getElementById('email');
+	const errorMessage = document.getElementById('error-message');
+
+	form.addEventListener('submit', (event) => {
+		event.preventDefault();
+
+		const email = emailInput.value;
+
+		if (email === email.toLowerCase()) {
+			form.submit();
+		} else {
+			errorMessage.textContent = 'Enter your email in lowercase.';
+		}
+	});
+</script>
+
+</html>

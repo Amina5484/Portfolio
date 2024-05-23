@@ -19,22 +19,16 @@
 # 📖 [Protfolic] <a name="about-project"></a>
 
 
-A mobile version skeleton refers to the basic structure and layout of a web page specifically designed for mobile devices.
-A desktop version skeletion refers to the basic structure and layout of a web page specifically designed for desktop devices,
- HTML and CSS are used to create this skeleton.
-In HTML, you would define the necessary elements such as the `<header>`, `<div>`, `<main>`and so on. These elements provide the structural organization of the page. Additionally, you would use appropriate HTML tags to mark up content like headings, paragraphs, images, and links.
-CSS is then employed to style and arrange these elements for mobile devices. This includes setting the width and height of the page, adjusting the font sizes, applying responsive design techniques to ensure proper scaling and positioning on different screen sizes, and optimizing the layout for touch interactions.
-
-By combining HTML and CSS, you can create a mobile version and desktop version skeleton that provides a clear and user-friendly layout for mobile devices ,desktop devices, allowing your website to be easily accessed and navigated on smartphones and tablets.
-
+The mobile version and desktop version skeleton of this project combines HTML, CSS, and JavaScript to create a responsive and user-friendly website experience for both mobile and desktop users. The HTML structure defines the necessary elements, such as the header, main content, and contact form, providing the overall layout and organization of the web page. CSS is then utilized to style and arrange these elements, ensuring proper scaling, positioning, and touch optimization for mobile devices, as well as the desired aesthetics for the desktop version. To enhance the responsiveness and interactivity, JavaScript is incorporated to detect the device type and apply appropriate layout configurations, handling events like window resizing and adjusting the layout accordingly. Additionally, the project includes a contact form with an email input field, and JavaScript is used to implement email validation using a regular expression, providing immediate feedback to the user on the validity of the email address. Finally, the mobile version of the website features a hamburger menu, where the HTML, CSS, and JavaScript work together to toggle the visibility of the full menu list when the user interacts with the hamburger button, creating a seamless and intuitive navigation experience for mobile users.
 
 
 ### Tech Stack <a name="tech-stack"></a>
-uses the html and css.
+uses the html,css and javascript .
 HTML is the standard language used to create and structure web pages. It uses tags to define elements like headings, paragraphs, images, and links, giving them meaning and structure.
-where as
+
 CSS is a style sheet language that controls the visual appearance of HTML elements. It allows you to set colors, fonts, layouts, and other design aspects of a web page, making it visually appealing and well-organized.
 
+JavaScript is a high-level, interpreted programming language that is primarily used for web development, creating dynamic and interactive web pages, and adding client-side functionality to websites
 
 <!-- Features -->
 
@@ -42,7 +36,7 @@ CSS is a style sheet language that controls the visual appearance of HTML elemen
 
 - **[HTML]**
 - **[CSS]**
--**[JavaScript]**
+- **[JavaScript]**
 - **[LINTER]**
 
 
@@ -89,9 +83,7 @@ Fix linter errors.<br>
 
  ### Deployment
 
-You can deploy this project using: https://amina5484.github.io/Portfolio/
-
-
+You can deploy this project using: 
 
 
 ## ⭐️ Show your support <a name="support"></a>
