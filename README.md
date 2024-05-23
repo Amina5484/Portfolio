@@ -20,7 +20,7 @@
 
 
 The mobile version and desktop version skeleton of this project combines HTML, CSS, and JavaScript to create a responsive and user-friendly website experience for both mobile and desktop users. The HTML structure defines the necessary elements, such as the header, main content, and contact form, providing the overall layout and organization of the web page. CSS is then utilized to style and arrange these elements, ensuring proper scaling, positioning, and touch optimization for mobile devices, as well as the desired aesthetics for the desktop version. To enhance the responsiveness and interactivity, JavaScript is incorporated to detect the device type and apply appropriate layout configurations, handling events like window resizing and adjusting the layout accordingly. Additionally, the project includes a contact form with an email input field, and JavaScript is used to implement email validation using a regular expression, providing immediate feedback to the user on the validity of the email address. Finally, the mobile version of the website features a hamburger menu, where the HTML, CSS, and JavaScript work together to toggle the visibility of the full menu list when the user interacts with the hamburger button, creating a seamless and intuitive navigation experience for mobile users.
-
+for the project.
 
 ### Tech Stack <a name="tech-stack"></a>
 uses the html,css and javascript .
